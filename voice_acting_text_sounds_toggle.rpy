@@ -33,5 +33,5 @@ screen preferences():
         vbox: # Find your screens.rpy file and place this vbox somewhere inside it. (The exact location within the Preferences Screen is based on your project's needs!)
             style_prefix "radio"
             label _("Voice Acting")
-            textbutton _("{font=DynaPuff.ttf}Enabled") action [SetVariable("persistent.voice_acting",True), SetMute(['voice'], False)]
-            textbutton _("{font=DynaPuff.ttf}Disabled") action [SetVariable("persistent.voice_acting",False), SetMute(['voice'], True)]
+            textbutton _("{Enabled") action [SetVariable("persistent.voice_acting",True), SetMute(['voice'], False)]
+            textbutton _("Disabled") action [SetVariable("persistent.voice_acting",False), SetMute(['voice'], True)]
